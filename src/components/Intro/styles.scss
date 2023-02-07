@@ -1,0 +1,30 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bg-intro);
+
+    img {
+        width: 800px;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 800px;
+    }
+
+    p {
+        margin: 1em 0;
+        font-size: 20px;
+        width: 600px;
+    }
+}
+
+.imageBG {
+    background: url("../../assets/bg-curvy-desktop.svg") no-repeat center/cover;
+    background-position-x: -12em;
+    background-color: var(--bg-intro);
+    height: 500px;
+    margin-top: -14rem;
+}

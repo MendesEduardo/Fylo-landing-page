@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-intro);
+    padding: 1em;
+
+    .navBarHeader {
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+                margin: 0 1rem;
+                padding: 1em;
+
+                a {
+                    text-decoration: none;
+                    font-family: var(--font-text);
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: var(--neutral);
+                }
+
+                a:hover {
+                    font-weight: 700;
+                    border-bottom: 2px solid var(--neutral);
+                }
+            }
+        }
+    }
+}

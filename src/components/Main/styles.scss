@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--bg-main);
+    gap: 5em;
+    flex-wrap: wrap;
+    text-align: center;
+
+    .imageCard {
+        width: 600px;
+
+        img {
+            width: 150px;
+        }
+
+        h2 {
+            margin: 0.5em 0;
+        }
+
+        p {
+            padding: 0 9em;
+            font-size: 14px;
+        }
+
+    }
+}

@@ -1,0 +1,20 @@
+//  Headings, Call-to-actions, Header Navigation
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-intro: hsl(217, 27%, 15%);
+    --bg-main: hsl(217, 27%, 13%);
+    --bg-footer: hsl(215, 52%, 9%);
+    --bg-testimonials: hsl(219, 30%, 18%);
+
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-Red: hsl(0, 100%, 63%);
+
+    --neutral: hsl(0, 0%, 100%);
+
+    --font-text: 'Raleway', sans-serif;
+    --font-text-body: 'Open Sans', sans-serif;
+}
