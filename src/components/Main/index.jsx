@@ -6,7 +6,7 @@ function Main() {
     return (
         <main className='main'>
             {datas.map((data) =>
-                <div className='imageCard'>
+                <div key={data.title} className='imageCard'>
                     <img src={data.images} alt={data.title} />
                     <h4>{data.title}</h4>
                     <p>

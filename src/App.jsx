@@ -1,8 +1,11 @@
 import './App.css'
+import Footer from './components/Footer';
+import GetEarly from './components/GetEarly';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import Main from './components/Main';
-import Sub from './components/StayProductive';
+import StayProductive from './components/StayProductive';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Header />
       <Intro />
       <Main />
-      <Sub />
+      <StayProductive />
+      <Testimonials />
+      <GetEarly />
+      <Footer />
     </>
   )
 };

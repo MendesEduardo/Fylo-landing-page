@@ -1,0 +1,45 @@
+.testimonials {
+    padding: 5em 5em 15em 5em;
+    display: flex;
+    gap: 2em;
+    background-color: var(--bg-main);
+    position: relative;
+
+    .quotes {
+        height: 70px;
+        position: absolute;
+        top: 1em;
+        left: 4em;
+        z-index: 5;
+    }
+
+    .card {
+        width: 33%;
+        height: 230px;
+        background-color: var(--bg-testimonials);
+        border-radius: 5px;
+        box-shadow: 7px 7px 25px #181818;
+        z-index: 10;
+
+        p {
+            padding: 2em 1.5em 1em 1.5em;
+            font-size: 17px;
+        }
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        padding: 0 1.5em;
+
+        img {
+            width: 50px;
+            border-radius: 50%;
+            padding: 0.5em;
+        }
+
+        h6 {
+            font-weight: 500;
+        }
+    }
+}
