@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header';
 import Intro from './components/Intro';
 import Main from './components/Main';
+import Sub from './components/StayProductive';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Intro />
       <Main />
+      <Sub />
     </>
   )
 };

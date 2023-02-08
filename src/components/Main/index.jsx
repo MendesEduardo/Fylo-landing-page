@@ -8,7 +8,7 @@ function Main() {
             {datas.map((data) =>
                 <div className='imageCard'>
                     <img src={data.images} alt={data.title} />
-                    <h2>{data.title}</h2>
+                    <h4>{data.title}</h4>
                     <p>
                         {data.description}
                     </p>
