@@ -33,16 +33,16 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--light-Red);
+    background-color: var(--cyan);
     border-radius: 20px;
 }
 
 body::-webkit-scrollbar-track {
-    background: linear-gradient( var(--cyan), var(--light-Red) );
+    background: linear-gradient(var(--cyan), var(--neutral));
 }
 
-@media (max-width: 450px) {
-    :root {
-        font-size: clamp(5px, 4vw, 15px);
+@media (max-width: 736px) {
+    body {
+        width: 375px;
     }
 }

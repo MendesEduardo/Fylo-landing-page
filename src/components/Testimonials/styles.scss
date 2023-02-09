@@ -43,3 +43,24 @@
         }
     }
 }
+
+@media (max-width: 736px) {
+    .testimonials {
+        flex-direction: column;
+        padding: 15em 2em;
+
+        .quotes {
+            height: 40px;
+            position: absolute;
+            top: 12.5em;
+            left: 2em;
+        }
+
+        .card {
+            width: 100%;
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -21,7 +21,6 @@
         .location {
             width: 350px;
             display: flex;
-
         }
 
         .contact {
@@ -32,23 +31,48 @@
 
         ul {
             list-style: none;
+
             li {
                 padding: 0 0 1em 0;
             }
+
             a {
                 text-decoration: none;
                 color: var(--neutral);
             }
+
             a:hover {
                 font-weight: 700;
             }
         }
-        .socialMidia{
+
+        .socialMidia {
             display: flex;
             gap: 2em;
+
             i:hover {
                 color: var(--cyan);
             }
+        }
+    }
+}
+
+@media (max-width: 736px) {
+    .footer {
+        height: auto;
+        padding-left: 1em;
+
+        .footerText {
+            flex-direction: column;
+            gap: 3em;
+
+            .location {
+                width: auto;
+            }
+        }
+
+        .socialMidia {
+            justify-content: center;
         }
     }
 }

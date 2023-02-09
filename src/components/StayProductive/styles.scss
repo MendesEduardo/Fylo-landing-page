@@ -37,3 +37,27 @@
         }
     }
 }
+
+@media (max-width: 736px) {
+    .stayProductive {
+        flex-direction: column;
+        padding: 8em 1em 0 1em;
+
+        .imageStay {
+            width: 100%;
+        }
+
+        .stayText {
+            width: auto;
+
+            h2 {
+                font-size: 18px;
+                padding: 3em 0 1.5em 0;
+            }
+
+            p {
+                padding: 0;
+            }
+        }
+    }
+}

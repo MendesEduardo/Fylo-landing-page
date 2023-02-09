@@ -6,7 +6,7 @@ function StayProductive() {
     return (
         <section className='stayProductive'>
             <div>
-                <img src={imgProductive} alt="Stay Productive" />
+                <img className='imageStay' src={imgProductive} alt="Stay Productive" />
             </div>
             <div className='stayText'>
                 <h2>

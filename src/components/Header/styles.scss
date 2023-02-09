@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg-intro);
-    padding: 3em 2em;
+    padding: 1em 2em;
 
     .navBarHeader {
         ul {
@@ -25,6 +25,25 @@
                 a:hover {
                     font-weight: 700;
                     border-bottom: 2px solid var(--neutral);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 736px) {
+    .header {
+        padding: 1em;
+
+        img{
+            width: 100px;
+        }
+
+        .navBarHeader {
+            ul {
+                margin: 0;
+                li{
+                    padding:0 0.5em;
                 }
             }
         }

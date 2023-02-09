@@ -28,3 +28,29 @@
     height: 500px;
     margin-top: -14rem;
 }
+
+@media (max-width: 736px) {
+    .intro {
+        padding-top: 2em;
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 25px;
+            width: auto;
+        }
+
+        p {
+            font-size: 16px;
+            padding: 1em;
+            width: auto;
+        }
+    }
+
+    .imageBG {
+        background: url("../../assets/bg-curvy-mobile.svg") no-repeat center/cover;
+        height: 150px;
+        margin-top: -23rem;
+    }
+}
